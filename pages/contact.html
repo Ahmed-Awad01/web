@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - TechXpress</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <h1><i class="fas fa-shopping-bag"></i> TechXpress</h1>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-icons">
+                <div class="search-box">
+                    <input type="text" placeholder="Search products..." id="search-input">
+                    <button type="button"><i class="fas fa-search"></i></button>
+                </div>
+                <a href="cart.html" class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count" id="cart-count">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section style="padding: 4rem 0; background: white;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; max-width: 1000px; margin: 0 auto;">
+                <!-- Contact Form -->
+                <div>
+                    <h2 style="margin-bottom: 2rem; color: #333;">Send us a Message</h2>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="support">Technical Support</option>
+                                <option value="order">Order Issue</option>
+                                <option value="return">Return/Refund</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Tell us how we can help you..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div>
+                    <h2 style="margin-bottom: 2rem; color: #333;">Get in Touch</h2>
+                    <div style="margin-bottom: 2rem;">
+                        <h3 style="color: #333; margin-bottom: 1rem;">
+                            <i class="fas fa-map-marker-alt" style="color: #2c5aa0; margin-right: 0.5rem;"></i>
+                            Our Location
+                        </h3>
+                        <p style="color: #666; line-height: 1.6;">
+                            123 TechXpress<br>
+                            Technology District<br>
+                            City, State 12345<br>
+                            United States
+                        </p>
+                    </div>
+
+                    <div style="margin-bottom: 2rem;">
+                        <h3 style="color: #333; margin-bottom: 1rem;">
+                            <i class="fas fa-phone" style="color: #2c5aa0; margin-right: 0.5rem;"></i>
+                            Phone & Email
+                        </h3>
+                        <p style="color: #666; line-height: 1.6;">
+                            Phone: +201000000<br>
+                            Email: info@TechXpress.com<br>
+                            Support: support@TechXpress.com
+                        </p>
+                    </div>
+
+                    <div style="margin-bottom: 2rem;">
+                        <h3 style="color: #333; margin-bottom: 1rem;">
+                            <i class="fas fa-clock" style="color: #2c5aa0; margin-right: 0.5rem;"></i>
+                            Business Hours
+                        </h3>
+                        <p style="color: #666; line-height: 1.6;">
+                            Monday - Friday: 9:00 AM - 6:00 PM<br>
+                            Saturday: 10:00 AM - 4:00 PM<br>
+                            Sunday: Closed<br>
+                            <em>Online support available 24/7</em>
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 style="color: #333; margin-bottom: 1rem;">
+                            <i class="fas fa-share-alt" style="color: #2c5aa0; margin-right: 0.5rem;"></i>
+                            Follow Us
+                        </h3>
+                        <div class="social-links">
+                            <a href="#" style="color: #2c5aa0; font-size: 1.5rem; margin-right: 1rem;"><i class="fab fa-facebook"></i></a>
+                            <a href="#" style="color: #2c5aa0; font-size: 1.5rem; margin-right: 1rem;"><i class="fab fa-twitter"></i></a>
+                            <a href="#" style="color: #2c5aa0; font-size: 1.5rem; margin-right: 1rem;"><i class="fab fa-instagram"></i></a>
+                            <a href="#" style="color: #2c5aa0; font-size: 1.5rem; margin-right: 1rem;"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TechXpress</h3>
+                    <p>Your trusted partner for the latest technology and electronics.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Track Order</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> +201000000</p>
+                    <p><i class="fas fa-envelope"></i> TechXpress.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> TechXpress, City, State</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; TechXpress</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/products.js"></script>
+    <script src="../js/cart.js"></script>
+    <script src="../js/main.js"></script>
+    
+    <script>
+        // Contact form functionality
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData);
+            
+            // Simulate form submission
+            showNotification('Thank you for your message! We\'ll get back to you within 24 hours.', 'success');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
